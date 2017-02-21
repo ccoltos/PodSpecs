@@ -14,7 +14,7 @@
   "source": {
     "git": "https://github.com/Cygnecode/rg-client-sdk-ios.git"
   },
-  "source_files" : "src/ios/**/*.*",
+  "source_files" : "nrg-client-sdk-common-ios/src/ios/**/*.*",
   "preserve_paths": [
     "*.md",
     "docs/**/*.md",
