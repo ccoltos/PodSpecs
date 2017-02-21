@@ -1,0 +1,41 @@
+{
+  "name": "branch-cordova-sdk",
+  "version": "2.4.0",
+  "summary": "Branch SDK Plugin",
+  "description": "Branch SDK Plugin.",
+  "homepage": "https://branch.io",
+  "license": "Apache 2.0",
+  "authors": {
+    "Branch": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/BranchMetrics/Cordova-Ionic-PhoneGap-Deferred-Deep-Linking-SDK.git"
+  },
+  "source_files": [
+    "src/ios/*.{h,m}",
+    "src/ios/dependencies/Fabric/*.{h,m}",
+    "src/ios/dependencies/Branch-SDK/*.{h,m}",
+    "src/ios/dependencies/Branch-SDK/Requests/*.{h,m}"
+  ],
+  "exclude_files" : "src/ios/AppDelegate+BranchSdk.m",
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "SafariServices",
+    "AdSupport",
+    "CoreTelephony",
+    "CoreSpotlight",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "Cordova": [">= 4.3.0"] 
+  }
+}
